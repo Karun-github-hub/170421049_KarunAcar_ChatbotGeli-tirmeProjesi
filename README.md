@@ -125,7 +125,7 @@ Chatbot'u başlat
 
 	streamlit run app.py
 
-        Ngrok ile internete aç
+Ngrok ile internete aç
 
 	ngrok authtoken <tokenınız>
 
