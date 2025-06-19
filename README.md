@@ -137,36 +137,21 @@ Model, transformers kütüphanesi kullanılarak aşağıdaki adımlarla eğitilm
 
 Modelin doğruluk ve F1 skoru gibi performans metrikleri Trainer.evaluate() ile hesaplanmış ve bir Confusion Matrix oluşturulmuştur.
 
-
-
-
-
-
-
-
-
 BERT Modeli Değerlendirme Sonuçları:
 
-  
-
-
- 
-
-
+![image](https://github.com/user-attachments/assets/3db1e3c9-a43b-45c8-8e00-bf28572d2f96)
+![image](https://github.com/user-attachments/assets/537a551c-503b-401b-a2c0-2f9172e13818)
 
 RoBERTa  Modeli Değerlendirme Sonuçları:
 
- 
-
- 
-
+ ![image](https://github.com/user-attachments/assets/652adb36-d1e1-48ae-b753-9532b71c608b)
+![image](https://github.com/user-attachments/assets/b2bdb6b4-d63a-4705-9d4b-20f988d45a91)
 
 
 📊 Model Performansı Karşılaştırma Tablosu
 
-Model	Accuracy	F1-Score	Recall 	Precision
-BERT	0.9900	0.9900	0.9900	0.9909
-RoBERTa	0.9900	0.9900	0.9900	0.9909
+![image](https://github.com/user-attachments/assets/934a9925-f711-45f5-9cbe-6fc23ac30cfc)
+
 
 🖥️ Chatbot Arayüzü
 
@@ -177,47 +162,35 @@ Streamlit Ekran Görüntüleri
 RoBERTa + GPT3.5 Destekli Chatbot Tasarımı
 
 Greeting Intent
-
- 
-
-
-
-
+![image](https://github.com/user-attachments/assets/3219459d-9eed-45c1-a16f-4286d769ec5b)
 
 DormitoryInfo Intent
+![image](https://github.com/user-attachments/assets/fe00b106-601e-40d4-9784-810d0dd4b5ae)
 
- 
 Registration Intent
-
- 
-
-
+![image](https://github.com/user-attachments/assets/9e299201-280e-4ba3-8ccc-96b213888fc5)
 
 EventInfo Intent
-
- 
+![image](https://github.com/user-attachments/assets/26880d82-a721-4fc2-8443-591ff53773f9)
 
 ContactInfo Intent
-
- 
+![image](https://github.com/user-attachments/assets/19909f81-be25-4d62-8a78-bdfcc972f7a5)
 
 Goodbye Intent
-
- 
+![image](https://github.com/user-attachments/assets/40841783-e792-4d99-91bd-727eb915d942)
 
 ScholarshipInfo Intent
-
- 
+![image](https://github.com/user-attachments/assets/6df01d6a-af31-4eab-9fc5-4fe340de8650)
 
 DepartmentInfo Intent
+![image](https://github.com/user-attachments/assets/84c69c3d-af4e-4ed4-a2cc-6da27ba1146d)
 
- 
-
- 
 Reject Intent
+![image](https://github.com/user-attachments/assets/f102989b-d8e0-4884-8519-ed0026c1dfc9)
 
  
  BERT + GPT3.5 Destekli Chatbot Tasarımı
+![image](https://github.com/user-attachments/assets/6f04ac0c-cf4a-4576-81df-782ae1557b7d)
 
  
 
