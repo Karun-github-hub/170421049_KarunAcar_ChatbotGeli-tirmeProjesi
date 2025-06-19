@@ -113,24 +113,24 @@ Model, transformers kütüphanesi kullanılarak aşağıdaki adımlarla eğitilm
 
 🔓 Kullanım
 
-      Gereksinimleri yükle
+     •Gereksinimleri yükle
 
-•	pip install -r requirements.txt
+	pip install -r requirements.txt
 
-       Modeli eğit
+     • Modeli eğit
 
-•	Kodun ilgili kısmında model eğitimi yapılır. (Eğitilmiş model klasörü   models/roberta_intent_model  veya  models/bert_intent_model olarak kaydedilmiştir.)
+     •Kodun ilgili kısmında model eğitimi yapılır. (Eğitilmiş model klasörü   models/roberta_intent_model  veya  models/bert_intent_model olarak kaydedilmiştir.)
 
-       Chatbot'u başlat
+      • Chatbot'u başlat
 
-•	streamlit run app.py
+	streamlit run app.py
 
         Ngrok ile internete aç
 
-•	ngrok authtoken <tokenınız>
+	ngrok authtoken <tokenınız>
 
-•	public_url = ngrok.connect(8501)
-•	print("Public URL:", public_url)
+	public_url = ngrok.connect(8501)
+	print("Public URL:", public_url)
 
 
 📊 Sonuçlar
@@ -162,34 +162,44 @@ Streamlit Ekran Görüntüleri
 RoBERTa + GPT3.5 Destekli Chatbot Tasarımı
 
 Greeting Intent
+
 ![image](https://github.com/user-attachments/assets/3219459d-9eed-45c1-a16f-4286d769ec5b)
 
 DormitoryInfo Intent
+
 ![image](https://github.com/user-attachments/assets/fe00b106-601e-40d4-9784-810d0dd4b5ae)
 
 Registration Intent
+
 ![image](https://github.com/user-attachments/assets/9e299201-280e-4ba3-8ccc-96b213888fc5)
 
 EventInfo Intent
+
 ![image](https://github.com/user-attachments/assets/26880d82-a721-4fc2-8443-591ff53773f9)
 
 ContactInfo Intent
+
 ![image](https://github.com/user-attachments/assets/19909f81-be25-4d62-8a78-bdfcc972f7a5)
 
 Goodbye Intent
+
 ![image](https://github.com/user-attachments/assets/40841783-e792-4d99-91bd-727eb915d942)
 
 ScholarshipInfo Intent
+
 ![image](https://github.com/user-attachments/assets/6df01d6a-af31-4eab-9fc5-4fe340de8650)
 
 DepartmentInfo Intent
+
 ![image](https://github.com/user-attachments/assets/84c69c3d-af4e-4ed4-a2cc-6da27ba1146d)
 
 Reject Intent
+
 ![image](https://github.com/user-attachments/assets/f102989b-d8e0-4884-8519-ed0026c1dfc9)
 
  
  BERT + GPT3.5 Destekli Chatbot Tasarımı
+ 
 ![image](https://github.com/user-attachments/assets/6f04ac0c-cf4a-4576-81df-782ae1557b7d)
 
  
