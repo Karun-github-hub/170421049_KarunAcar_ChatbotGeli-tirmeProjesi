@@ -113,15 +113,15 @@ Model, transformers kütüphanesi kullanılarak aşağıdaki adımlarla eğitilm
 
 🔓 Kullanım
 
-     •Gereksinimleri yükle
+Gereksinimleri yükle
 
 	pip install -r requirements.txt
 
-     • Modeli eğit
+ Modeli eğit
 
-     •Kodun ilgili kısmında model eğitimi yapılır. (Eğitilmiş model klasörü   models/roberta_intent_model  veya  models/bert_intent_model olarak kaydedilmiştir.)
+Kodun ilgili kısmında model eğitimi yapılır. (Eğitilmiş model klasörü   models/roberta_intent_model  veya  models/bert_intent_model olarak kaydedilmiştir.)
 
-      • Chatbot'u başlat
+Chatbot'u başlat
 
 	streamlit run app.py
 
